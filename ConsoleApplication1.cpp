@@ -6,16 +6,12 @@ using namespace std;
 
 int main()
 {
+    // Declaring the variable
+    float mm;
     cout << "How many mm is the ocean going up every year?\n";
+    // Puts the inputted value into the variable and displays the text showing the increase in height over 5, 7, and 10 years.
+    cin >> mm;
+    cout << "The ocean level will be " << mm * 5 << " mm higher in 5 years." << endl;
+    cout << "The ocean level will be " << mm * 7 << " mm higher in 7 years." << endl;
+    cout << "The ocean level will be " << mm * 10 << " mm higher in 10 years." << endl;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
